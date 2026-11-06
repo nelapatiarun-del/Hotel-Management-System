@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #14213d, #3a506b);
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 380px;
+    padding: 35px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+}
+
+.login-box h1 {
+    color: #14213d;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.login-box h3 {
+    margin-bottom: 25px;
+}
+
+.login-box label {
+    display: block;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.login-box input {
+    padding: 10px;
+}
+
+.login-box button {
+    padding: 11px;
+    background-color: #14213d;
+    border: none;
+}
+
+.login-box button:hover {
+    background-color: #fca311;
+}
+
+.footer-text {
+    margin-top: 20px;
+    color: gray;
+    font-size: 13px;
+}
+/* Dashboard */
+
+.dashboard-body {
+    background: #f1f4f9;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #14213d;
+    position: fixed;
+    padding: 25px 15px;
+    color: white;
+}
+
+.sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    margin: 8px 0;
+    border-radius: 6px;
+}
+
+.sidebar a:hover {
+    background: #fca311;
+}
+
+.main-content {
+    margin-left: 240px;
+    padding: 35px;
+}
+
+.dashboard-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-left: 5px solid #fca311;
+}
+
+.dashboard-card h5 {
+    color: #555;
+}
+
+.dashboard-card h2 {
+    color: #14213d;
+    margin-top: 15px;
+}
+
+.booking-section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
